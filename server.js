@@ -19,6 +19,7 @@ res.send('I like mango ice-cream');
 
 app.get('/article-three', function (req, res) {
 res.send('I want to win the Biology scholarship for Sienna College.');
+res.send('http://media.mercola.com/assets/images/foodfacts/mango-nutrition-facts.jpg');
 });
 
 app.get('/ui/style.css', function (req, res) {
