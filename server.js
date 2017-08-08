@@ -9,6 +9,18 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/article-one', function (req, res) {
+res.send('I have to go to 15-LOVE in a few minutes.');
+});
+
+app.get('/article-two', function (req, res) {
+res.send('I like mango ice-cream');
+});
+
+app.get('/article-three', function (req, res) {
+res.send('I want to win the Biology scholarship for Sienna College.');
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
